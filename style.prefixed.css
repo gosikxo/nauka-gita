@@ -1,8 +1,10 @@
 body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 }
 
 .title {

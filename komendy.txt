@@ -1,0 +1,9 @@
+Zakładając, ze autoprefixer i checker są zainstalowane globalnie uzywamy je następująco
+
+Żeby dodać prefixy do pliku style.css uzywamy takiej komendy, ktora stworzy nowy plik o nazwie style.prefixed.css
+autoprefixer-cli -o style.prefixed.css style.css
+
+Żeby sprawdzić czy dany plik html (np. index.html) jest poprawny piszemy następującą komendę: 
+nu-html-checker index.html
+
+Jeśli są lokalnie, to dodajemy komendy napisane powyzej do pola scripts w pliku package.json i piszemy komendę npm run (nazwa wymyślona w package.json)
